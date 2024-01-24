@@ -1,7 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello Linus!");
+app.MapGet("/", () => "Hello Linus!!!");
 
 app.MapGet("/add", (int num1, int num2) => AddNumbers(num1, num2));
 
